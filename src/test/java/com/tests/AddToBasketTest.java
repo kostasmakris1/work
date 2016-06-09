@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/com/tests/features/add_to_basket.feature", format = {
+@CucumberOptions(glue = {"com.tests"},features = "src/test/java/com/tests/features/add_to_basket.feature", format = {
 "pretty", "json:target/cucumber-reports/add_to_basket.feature"}, tags = {"@test"})
 public class AddToBasketTest {
 	

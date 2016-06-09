@@ -10,7 +10,7 @@ public class MyBasketStepDefs  extends WebDriverInit {
 
 	@When("^I add item$")
 	public void i_add_item() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
+		System.out.println("starting test");
 
 	}
 

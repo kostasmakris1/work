@@ -12,9 +12,7 @@ public class WebDriverInit {
 
 	public WebDriver getWebdriver (String browserName) {
 		driver = null;
-		System.out.println("********");
 		if (browserName.equals("firefox")) {
-			System.out.println("&&&&&&&");
 			driver = new FirefoxDriver();
 		}
 		return driver;

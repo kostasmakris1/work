@@ -17,7 +17,6 @@ public class MyBasketStepDefs {
 	@When("^I add a product to basket \"([^\"]*)\"$")
 	public void there_are_coffees(String product) throws Exception {
 	   String browserName = System.getProperty("browserName");
-	  
 	   driver = new WebDriverInit().getWebdriver(browserName);
 	   MyBasket myBasket = new MyBasket (driver);
 	   driver.get("http://www.notonthehighstreet.com/" + product);

@@ -9,9 +9,9 @@ public class WebDriverInit {
 
 	public WebDriver getWebdriver (String browserName) {
 		System.out.println("my browser is: "+ browserName);
-//		if (browserName.equals("firefox")) {
-//			driver = new FirefoxDriver();
-//		}
+		if (browserName.equals("firefox")) {
+			driver = new FirefoxDriver();
+		}
 		return driver;
 		
 	}

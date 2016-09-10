@@ -24,16 +24,6 @@
     <artifactId>junit</artifactId>
     <version>4.11</version>
 </dependency>
-<dependency>
-    <groupId>info.cukes</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>1.2.4</version>
-</dependency>
-<dependency>
-    <groupId>info.cukes</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>1.2.4</version>
-</dependency>
 </dependencies>
   <build>
     <plugins>
@@ -48,7 +38,7 @@
             [...]
           </systemPropertyVariables>
           <includes>
-         <include>**/MyBasketTests.java</include>
+         <include>**/JustGivingTests.java</include>
          </includes>
         </configuration>
       </plugin>

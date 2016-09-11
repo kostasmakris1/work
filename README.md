@@ -9,4 +9,4 @@ mvn clean install -DbrowserName=firefox
 or from the IDE ( in the run configurations under the VM arguments 
 -DbrowserName=firefox)
 
-The reports can be found in the target folder
+

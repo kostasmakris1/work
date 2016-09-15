@@ -48,7 +48,7 @@
             [...]
           </systemPropertyVariables>
           <includes>
-         <include>**/EbayTests.java</include>
+         <include>**/ZooplaTests.java</include>
          </includes>
         </configuration>
       </plugin>

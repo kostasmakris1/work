@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="incentive-coding-test" />
         <module name="myproject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="incentive-coding-test" target="1.5" />
       <module name="myproject" target="1.5" />
     </bytecodeTargetLevel>
   </component>

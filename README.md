@@ -1,12 +1,14 @@
-# To run the project:
-maven, java jdk8, 
-Go to the folder you want to download the project and:
-git clone https://github.com/kostasmakris1/work.git
+incentive-coding-test
+=====================
 
-The command to run the tests is:
-mvn clean install -DbrowserName=firefox
+This is a toy webapp to test the new candidate skills.
 
-or from the IDE ( in the run configurations under the VM arguments 
--DbrowserName=firefox)
+To run app type:
+mvm clean install jetty:run
 
+It will spin jetty container on local port 8080
 
+To execute the tests run the test class
+Under resources, I have added json templates for the different requests/responses. I use pojos and convert them to java objects.
+The Request builder is used to build the several requests using http client. This is done in the ApiUtils. The data is stored into messageContext object
+and is retrieved in step definitions for the assertions.

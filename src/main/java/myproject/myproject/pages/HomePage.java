@@ -1,36 +1,47 @@
 package myproject.myproject.pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
-	public WebDriver driver;
+	@FindBy(css = "span[class='nav-logo-base nav-sprite']")
+	private WebElement amazonLabel;
 
-	
-	public HomePage(WebDriver driver) {
+	@FindBy(id = "twotabsearchtextbox")
+	private WebElement searchBoxEl;
+
+	@FindBy(tagName = "h2")
+	private WebElement fullDescriptionEl;
+
+	private WebDriver driver;
+    private BasketPage basketPage;
+    private final static String AMAZON_URL = "https://www.amazon.co.uk/";
+
+	public HomePage(WebDriver driver, BasketPage basketPage) {
 		this.driver = driver;
-	}
-	
-	public boolean isPageLoaded () {
-
-		driver.get("http://www.zoopla.co.uk/");
-		new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(driver.findElement(By.id("logo"))));
-		return driver.findElement(By.id("logo")).isDisplayed();
+		this.basketPage = basketPage;
+		PageFactory.initElements(driver,this);
 	}
 
+	public boolean isPageLoaded() {
 
-public Boolean getPropertyRentSection () {
-    driver.findElement(By.cssSelector("a[href='/to-rent/']")).click();
-	return driver.findElement(By.cssSelector("p[class='h-subheader']")).getText().equals("Search for houses and flats to rent across the UK");
+		driver.get(AMAZON_URL);
+		return amazonLabel.getText().equals("Amazon.co.uk");
+	}
 
-}
+	public boolean searchProduct(String productName) {
 
+		searchBoxEl.sendKeys(productName);
+		searchBoxEl.sendKeys(Keys.ENTER);
+		String fullProductDescriptionTxt = fullDescriptionEl.getAttribute("data-attribute");
+		driver.findElement(By.partialLinkText(fullProductDescriptionTxt)).click();
 
-
-
+		return basketPage.isAddToBasketBtnDisplayed();
+	}
 }
 	
 

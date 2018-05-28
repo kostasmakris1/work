@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8dc937ad-4998-49e2-8ecf-3f6024bf4a79" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/BasketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/bin/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myproject/myproject/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/RentProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/SearchResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/bin/chromedriver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/bin/chromedriver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/bin/chromedriver/killChromeDriverSessions.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/ZooplaStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/WhitBreadStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/ZooplaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/WhitBreadTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/zoopla_search_product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/whitbread_search_product.feature" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="work" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="whitbread_search_product.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/whitbread_search_product.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gamesys" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverInit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tests/ZooplaStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tests/WhitBreadTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/SearchResults.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/SearchResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myproject/myproject/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tests/whitbread_search_product.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/BasketPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tests/WhitBreadStepDefs.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="30" />
+    <option name="width" value="1700" />
+    <option name="height" value="830" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\pv\work\src\resources\bin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: whitbread_search_product">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Feature: whitbread_search_product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="myproject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="VM_PARAMETERS" value="-DbrowserName=chrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WhitBreadTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.WhitBreadTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-DbrowserName=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Feature: whitbread_search_product" />
+      <item itemvalue="JUnit.WhitBreadTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: whitbread_search_product" />
+        <item itemvalue="JUnit.WhitBreadTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dc937ad-4998-49e2-8ecf-3f6024bf4a79" name="Default" comment="" />
+      <created>1473357192945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1473357192945</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ebay test search products automation">
+      <created>1473373545799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1473373545799</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ebay test search products automation">
+      <created>1473619922056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473619922056</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ebay test search products automation">
+      <created>1474639583015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474639583015</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="WhitBreadTests - 2018.05.26 at 23h 44m 10s.xml">
+      <configuration name="WhitBreadTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhitBreadTests - 2018.05.26 at 23h 54m 24s.xml">
+      <configuration name="WhitBreadTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Feature__whitbread_search_product - 2018.05.27 at 00h 22m 07s.xml">
+      <configuration name="Feature: whitbread_search_product" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__whitbread_search_product - 2018.05.27 at 00h 22m 52s.xml">
+      <configuration name="Feature: whitbread_search_product" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__whitbread_search_product - 2018.05.27 at 00h 24m 46s.xml">
+      <configuration name="Feature: whitbread_search_product" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__whitbread_search_product - 2018.05.27 at 00h 25m 13s.xml">
+      <configuration name="Feature: whitbread_search_product" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__whitbread_search_product - 2018.05.27 at 00h 26m 41s.xml">
+      <configuration name="Feature: whitbread_search_product" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__whitbread_search_product - 2018.05.27 at 00h 27m 41s.xml">
+      <configuration name="Feature: whitbread_search_product" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__whitbread_search_product - 2018.05.27 at 00h 28m 46s.xml">
+      <configuration name="Feature: whitbread_search_product" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__whitbread_search_product - 2018.05.27 at 00h 29m 29s.xml">
+      <configuration name="Feature: whitbread_search_product" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32846716" />
+      <window_info id="Palette&#9;" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.329927" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.329927" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ebay test search products automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="ebay test search products automation" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayStepDefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverInit.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayStepDefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/ebay_search_product.feature" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/ebay_search_product.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayStepDefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/ebay_search_product.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayStepDefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/ebay_search_product.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/ebay_search_product.feature" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayStepDefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/ebay_search_product.feature" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayStepDefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/ebay_search_product.feature" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayStepDefs.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/junit/framework/Assert.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/ebay_search_product.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayStepDefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/EbayTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/player.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/PlayerDetailsBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/ApiUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gamesys/hr/raffle/cucumber/stepdef/StepDefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/RequestBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/HttpRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/RaffleRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/CustomHttpResponse.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/PlayerBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/RaffleBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/myproject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/RentProperty.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/WhitBreadTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverInit.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="222" column="40" selection-start-line="222" selection-start-column="40" selection-end-line="222" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/WebDriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/BasketPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/WhitBreadStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/myproject/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/whitbread_search_product.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

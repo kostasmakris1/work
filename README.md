@@ -1,13 +1,12 @@
 # To run the project:
-maven, java jdk8, 
-Go to the folder you want to download the project and:
-git clone https://github.com/kostasmakris1/work.git
+maven, java jdk8,
 
 The command to run the tests is:
-mvn clean install -DbrowserName=chrome ( runs on a Mac machine  )
-mvn clean install -DbrowserName=firefox ( tested with firefox version 42. The latest verrson of firefox doesn't work with selenium)
+mvn clean install -DbrowserName=chrome ( runs on a win machine  )
 
 or from the IDE ( in the run configurations under the VM arguments 
 -DbrowserName=chrome)
 
+Notes: This has been tested on a windows machine. If needs to run on mac download the chomedriver binary for mac
+and add it to the bin foler under resources.
 
